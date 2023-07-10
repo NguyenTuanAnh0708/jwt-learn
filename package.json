@@ -1,0 +1,19 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "learn jwt",
+  "main": "index.js",
+  "repository": "https://github.com/Tuananhnguyenbsbd/jwt-learn.git",
+  "author": "nguyentuananh <nguyentuananhfedev@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2"
+  }
+}
