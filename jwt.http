@@ -1,0 +1,18 @@
+
+GET http://localhost:5000/books
+Authorization: Bear eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTmd1eWVuIFR1YW4gQW5oIiwicGFzc3dvcmQiOiJULmEwNzA4MjAwMyIsImlhdCI6MTY5MTY0NzkzNSwiZXhwIjoxNjkxNjQ3OTY1fQ.1Nvr9sdxmynRrahHdOOzOd6XyvyFt_17mDTqq7ig7oI
+###
+POST  http://localhost:5500/login 
+Content-Type: application/json
+
+{
+    "name": "Nguyen Tuan Anh",
+    "password": "T.a07082003"
+}
+###
+POST http://localhost:5500/refreshToken
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTmd1eWVuIFR1YW4gQW5oIiwicGFzc3dvcmQiOiJULmEwNzA4MjAwMyIsImlhdCI6MTY5MTY1MTQxN30.BKdcAvcYKbEizJq1EAwmUwrHzk3fj1saalakl9Tyyvs"
+}
